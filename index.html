@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* body{
+            /* background-color: rgb(23, 22, 22); */
+
+       #navbar{
+            border: 1px solid red;
+            background-color: rgba(0, 0, 0, 0.641);
+            width: 100%;
+            height:50px;
+            margin: auto;
+            display: flex;
+            justify-content:space-around;
+            
+        }
+        #navbar>div{
+            justify-content:center;
+        }
+        #searchbar{
+        width:350px;
+        height:30px;
+        margin:auto;
+        padding: 0px 5px;
+        
+        }
+        #btn{
+        margin-left: -8px;
+        margin-top: 20px;
+        margin:0px;
+        justify-content:center;
+
+        /* height:5px; */
+        }
+        #main{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        width: 97%;
+        }
+        #container{
+        display: grid;
+        grid-template-columns: repeat(3,25%);
+        gap: 12px;
+        justify-content: space-around;
+
+        } 
+
+        i{
+            color:red;
+            margin-top: 10px;
+        }
+        #titel{
+            color: white;
+            border: 1px solid red;
+        }
+        
+</style>
+</head>
+<body>
+    <div id="navbar">
+        
+            <i class="fa fa-bars" style="font-size:25px"></i>
+            <img src="https://cdn-icons-png.flaticon.com/512/400/400425.png" width="50px" height="50px" alt="">
+        <div>
+            <input id="searchbar" type="search"/>
+            <button id="btn" onclick="searchData()"><i id="icon" class="fa fa-search" ></i></button>
+        </div>
+    <!-- <img src="https://banner2.cleanpng.com/20190826/kih/transparent-bell-icon-basic-icons-icon-notification-icon-5d63b4e3597582.2214950915668154593664.jpg" width="2.5%" alt=""> -->
+    </div>
+    <br>
+    <div id="main">
+        <div id="container"></div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
